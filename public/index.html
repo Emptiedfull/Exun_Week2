@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+
+</head>
+
+<body>
+    <div id="main">
+        <h1>Exun</h1>
+        <h1>2024-2025 Recruitments</h1>
+        <form method="post" id="form" action="/upload">
+            <label for="name">Name:</label>
+            <input type="text" name="name" id="name" required>
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" required>
+            <label for="dob">Date of Birth:</label>
+            <input type="date" name="dob" id="dob" required>
+            <label for="Background">Tell us about yourself?</label>
+            <textarea name="background" id="background" required></textarea>
+            <label for="achievements">Achievements? If yes, please describe them</label>
+            <textarea name="achievements" id="achievements"></textarea>
+            <label for="grade">Grade</label>
+            <select id="grade" value="Grade">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+                <option value="11">11</option>
+                <option value="12">12</option>
+            </select>
+            <label for="notification">Would you like to receive notifications?</label>
+            <div id="notification">
+                <input type="radio" name="notification" value="yes" id="yes" required>
+                <label for="yes">Yes</label>
+                <input type="radio" name="notification" value="no" id="no" required>
+                <label for="no">No</label>
+            </div>
+            <input type="submit" value="Submit" id="submit">
+        </form>
+    </div>
+</body>
+<script src="index.js"></script>
+
+</html>
