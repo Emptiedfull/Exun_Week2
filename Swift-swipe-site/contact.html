@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
+    <link rel="stylesheet" href="contact.css">
+    <title>Contact Page</title>
+</head>
+<body>
+    <div id="navbar">
+        <h2 id="logo">Swift Swipe</h2>
+        <div id="links">
+            <h2 onclick="window.location.href='index.html'">Home</h2>
+            <h2 onclick="window.location.href='Waitlist.html'">Waitlist</h2>
+            <h2 onclick="window.location.href = 'contact.html'">Contact us</h2>
+        </div>
+    </div>
+    <div id = 'r2'>
+        <div id="c1">
+            <div id="cont">
+                <h1 style="color: #427272;">Contact us</h1>
+                <p>Have any queries? Feel free to reach out to us any time!</p>
+            </div>
+
+        </div>
+        <div id='c2'>
+            <form>
+                <label for="name">Name</label>
+                <input class="field" type="text" placeholder="Name">
+                <label  type="email" >Email</label>
+                <input type="email" class='field' placeholder="Email" required>
+
+                <label for="message">What can we help you with?</label>
+                <textarea  class='field' placeholder="Message"></textarea>
+                <button id="Submit">Submit</button>
+            </form>
+        </div>
+    </div>
+
+
+
+</body>
+<script src="contact.js"></script>
+</html>

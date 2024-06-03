@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
+    <link rel = "stylesheet" href = "Waitlist.css">
+
+    <title>Waitlist</title>
+</head>
+<body>
+
+    <div id="navbar">
+        <h2 id="logo" style="color: #427272;font-size: 1.8em;">Swift Swipe</h2>
+        <div id="links">
+            <h2 onclick="window.location.href='index.html'">Home</h2>
+            <h2 onclick="window.location.href='Waitlist.html'">Waitlist</h2>
+            <h2 onclick="window.location.href = 'contact.html'">Contact us</h2>
+        </div>
+    </div>
+    <div id="r2">
+        <div id="content">
+        <h1>Welcome to the Waitlist</h1>
+        <p>Thank you for your interest! Please fill out the form below to join our waitlist.</p>
+    </div>
+
+    <form>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <label for="updates">Receive Regular Updates:</label> 
+        <div id="raio">
+            <input type="radio" id="yes" name="updates" value="yes">
+            <label for="yes">Yes</label>
+            <input type="radio" id="no" name="updates" value="no">
+            <label for="no">No</label>
+        </div>
+        <button type="submit">Join Waitlist</button>
+    </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,91 @@
+body{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    font-family: "Inter";
+    background-color: antiquewhite;
+    padding-left: 4%;
+    padding-right: 4%;
+}
+
+
+#navbar{
+   
+    height: 10vh;
+    display: flex;
+    flex-direction: row ;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 1.6%;
+    
+}
+
+#links{
+    
+    width: 40%;
+    font-size: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+   
+}
+
+#links h2{
+    cursor: pointer;
+    text-wrap: nowrap;
+
+   
+    padding-left: 10%;
+}
+
+#r2{
+    
+    height: 83vh;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+#r2 h1
+{
+    color: #427272;
+    font-size: 4em;
+}
+
+#content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2%;
+}
+
+
+form{
+    border-radius: 20px;
+    padding: 2%;
+    width: 40%;
+    background-color:  #7AB2B2;
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    font-size: 1em;
+    margin-bottom: 2%;
+    padding: 2%;
+    border-radius: 5px;
+    border: none;
+
+}
+
+#radio{
+    display: flex;
+    flex-direction: row;
+}
+
+button{
+    font-size: 1.2em;
+    cursor: pointer;
+    border-radius: 20px;
+    height: 6vh;
+}
